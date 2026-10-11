@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="theme-color" content="#000000" />
+
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="shortcut icon" href="./favicon.png" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/instantsearch.css@7/themes/algolia-min.css"
+    />
+    <link rel="stylesheet" href="./src/index.css" />
+    <link rel="stylesheet" href="./src/app.css" />
+
+    <title>help content</title>
+  </head>
+
+  <body>
+    <div class="ais-InstantSearch">
+      <h1>Help</h1>
+
+      <div class="top-panel">
+        <div id="searchbox" class="ais-SearchBox"></div>
+        <div class="tabs">
+          <a href="#">All</a>
+          <a href="#helpcenter">Help Center</a>
+          <a href="#community">Community</a>
+          <a href="#academy">Academy</a>
+        </div>
+      </div>
+      <div class="bottom-panel all-tab">
+        <div class="right-panel">
+          <h2>
+            Help Center
+            <a class="view-all" href="#helpcenter">View all</a>
+          </h2>
+          <div id="help-center-hits"></div>
+          <h2>
+            Community
+            <a class="view-all" href="#community">View all</a>
+          </h2>
+          <div id="community-forum-hits"></div>
+          <h2>
+            Academy
+            <a class="view-all" href="#academy">View all</a>
+          </h2>
+          <div id="academy-courses-hits"></div>
+        </div>
+      </div>
+      <div class="bottom-panel single-tab">
+        <div class="left-panel">
+          <div id="tags-list"></div>
+        </div>
+        <div class="right-panel">
+          <div id="hits"></div>
+          <div id="pagination"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/algoliasearch@4/dist/algoliasearch-lite.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4"></script>
+    <script>
+      var ALGOLIA_INSIGHTS_SRC = "https://cdn.jsdelivr.net/npm/search-insights@1.8.0";
+    
+      !function(e,a,t,n,s,i,c){e.AlgoliaAnalyticsObject=s,e[s]=e[s]||function(){
+      (e[s].queue=e[s].queue||[]).push(arguments)},i=a.createElement(t),c=a.getElementsByTagName(t)[0],
+      i.async=1,i.src=n,c.parentNode.insertBefore(i,c)
+      }(window,document,"script",ALGOLIA_INSIGHTS_SRC,"aa");
+    
+    </script>
+    <script src="./src/app.js"></script>
+  </body>
+</html>

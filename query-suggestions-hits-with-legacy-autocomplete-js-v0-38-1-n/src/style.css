@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: rgb(65, 65, 65);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+    'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  background: white;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 640px;
+  width: 100%;
+}
+
+/* Autocomplete */
+.algolia-autocomplete,
+.aa-input,
+.aa-dropdown-menu {
+  width: 100%;
+}
+
+.aa-input {
+  height: 70px;
+  text-align: center;
+  font-size: 34px;
+  background: white;
+  border: none;
+  border-bottom: 1px solid #000;
+  font-family: Georgia, serif;
+}
+.aa-input:focus-visible {
+  outline: none;
+}
+
+.aa-suggestion em {
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* Query suggestions */
+.aa-dataset-querySuggestions {
+  text-align: center;
+}
+.aa-dataset-querySuggestions .aa-suggestion {
+  padding: 24px 0;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* Products */
+.aa-dataset-products .aa-suggestions {
+  display: grid !important;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-gap: 0.10714rem;
+}
+.aa-dataset-products .aa-suggestion {
+  background: #f6f6f6;
+  text-align: center;
+}
+.product-card {
+  padding: 40px 0 20px;
+}
+.product-card__image {
+  object-fit: cover;
+  width: 100%;
+}
+.product-card__body {
+  padding: 20px 30px;
+}
+.product-card__body p {
+  font-size: 14px;
+  margin: 0;
+  line-height: 24px;
+  font-weight: 400;
+  font-family: Helvetica, sans-serif;
+}

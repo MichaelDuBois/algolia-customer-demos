@@ -1,0 +1,40 @@
+body,
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+#dynamic-widgets {
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+.ais-CurrentRefinements-item {
+  margin-bottom: 20px;
+}
+
+.ais-Panel {
+  padding-bottom: 20px;
+}
+
+.ais-RangeSlider {
+  width: 80%;
+}
+
+.add-to-cart-btn {
+  background-color: #6e6b9b;
+  color: white;
+  padding: 0.3rem 0.5rem;
+  font-size: 0.8rem;
+  border-radius: 5px;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+}

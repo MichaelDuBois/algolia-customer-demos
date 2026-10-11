@@ -1,0 +1,43 @@
+.ais-Dropdown-button {
+  border: 1px solid #d6d6e7;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  font-size: 0.8rem;
+  background-color: transparent;
+}
+
+.ais-Dropdown-button--refined {
+  font-weight: bold;
+}
+
+.ais-Dropdown-button:hover {
+  background-color: #f5f5fa;
+}
+
+.ais-Dropdown .ais-Panel-body > div > div[class^='ais-'] {
+  position: absolute;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  padding: 0.5rem 1rem;
+  margin-top: 0.5rem;
+  background-color: #fff;
+}
+
+.ais-Dropdown .ais-Panel-header {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+.ais-Dropdown .ais-Panel-body {
+  display: none;
+}
+
+.ais-Dropdown--opened .ais-Panel-body {
+  display: block;
+}
+
+.ais-Dropdown .ais-Panel-body {
+  position: relative;
+}

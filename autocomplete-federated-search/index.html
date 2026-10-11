@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="theme-color" content="#000000" />
+
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="shortcut icon" href="./favicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@algolia/autocomplete-theme-classic"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/instantsearch.css@7/themes/algolia-min.css"
+    />
+    <link rel="stylesheet" href="./src/index.css" />
+    <link rel="stylesheet" href="./src/app.css" />
+
+    <title>Instantsearch & Dynamic faceting</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <h1 class="header-title">
+        <a
+          href="https://www.algolia.com/doc/guides/building-search-ui/ui-and-ux-patterns/autocomplete/js/"
+          >Autocomplete
+        </a>
+      </h1>
+      <p class="header-subtitle">
+        with
+        <a
+          href="https://www.algolia.com/doc/guides/solutions/ecommerce/search/autocomplete/federated-search/#implementing-federated-search"
+        >
+          Federated Search
+        </a>
+      </p>
+    </header>
+
+    <div class="container">
+      <div class="search-panel">
+        <div class="search-panel__filters">
+          <div id="clear-refinements"></div>
+          <div id="dynamic-widgets"></div>
+        </div>
+
+        <div class="search-panel__results">
+          <div id="autocomplete"></div>
+          <div id="current_refinements"></div>
+          <div id="hits"></div>
+        </div>
+      </div>
+
+      <div id="pagination"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/algoliasearch@4/dist/algoliasearch-lite.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4"></script>
+    <script src="./src/app.js"></script>
+    <script src="/federated-search-autocomplete-demo.e31bb0bc.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@algolia/autocomplete-js"></script>
+  </body>
+</html>

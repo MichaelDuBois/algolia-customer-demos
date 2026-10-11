@@ -1,0 +1,79 @@
+body {
+  font-family: sans-serif;
+}
+
+/* Autocomplete */
+
+.aa-PanelLayout {
+  display: flex;
+}
+
+.aa-PanelLayout section[data-autocomplete-source-id="directors"] {
+  flex: 1;
+}
+
+.aa-PanelLayout section[data-autocomplete-source-id="promotedCategories"] {
+  flex: 2;
+}
+
+.aa-PanelLayout section[data-autocomplete-source-id="qs"] {
+  flex: 1;
+}
+
+.aa-PanelLayout section[data-autocomplete-source-id="movies"] {
+  flex: 2;
+}
+
+section[data-autocomplete-source-id="promotedCategories"] > ul.aa-List {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+section[data-autocomplete-source-id="movies"] > ul.aa-List {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+/* Results */
+#results {
+  display: flex;
+}
+
+#refinements {
+  flex: 1;
+  margin-right: 20px;
+}
+
+#hits {
+  flex: 4;
+}
+
+ol.ais-InfiniteHits-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* Product Page */
+#movie_details {
+  display: flex;
+}
+
+#movie_details #poster {
+  flex: 2;
+  margin-right: 20px;
+}
+
+#movie_details #presentation {
+  flex: 3;
+}
+
+/* reco */
+ol.auc-Recommend-list {
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+
+ol.auc-Recommend-list li {
+  margin-right: 5px;
+}

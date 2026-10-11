@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="theme-color" content="#000000" />
+
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="shortcut icon" href="./favicon.png" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/instantsearch.css@7.3.1/themes/algolia.css"
+    />
+    <link rel="stylesheet" href="./src/index.css" />
+    <link rel="stylesheet" href="./src/app.css" />
+
+    <title>routing-seo-friendly</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="search-panel">
+        <div class="search-panel__filters">
+          <div id="clear-refinements"></div>
+          <div id="menu"></div>
+          <div id="refinement-list"></div>
+        </div>
+
+        <div class="search-panel__results">
+          <div id="searchbox"></div>
+          <div>
+            <p>
+              This demo is leveraging the highlighting of matching hits with
+              typos to display suggestion.<br />Querying an Algolia Query
+              suggestion instead is a valid alternative.
+            </p>
+            <div class="ais-Hits">
+              <ol class="ais-Hits-list" id="hits"></ol>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="pagination"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/algoliasearch@4/dist/algoliasearch-lite.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4"></script>
+    <script src="./src/app.js"></script>
+  </body>
+</html>

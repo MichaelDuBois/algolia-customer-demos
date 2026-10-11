@@ -1,0 +1,41 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.search-panel {
+  display: flex;
+}
+
+.search-panel__filters {
+  flex: 1;
+  margin-right: 2rem;
+}
+
+.search-panel__filters > div {
+  margin-bottom: 2rem;
+}
+
+.search-panel__results {
+  flex: 3;
+}
+
+#searchbox {
+  margin-bottom: 2rem;
+}
+
+#pagination {
+  margin: 2rem auto;
+  text-align: center;
+}
+
+ul.suggestions {
+  list-style-type: none;
+  margin: 1em 0 1em 0;
+  padding: 0 0 0 5px;
+}
+
+li.suggestion {
+  padding-bottom: 8px;
+}

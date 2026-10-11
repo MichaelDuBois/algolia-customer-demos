@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="theme-color" content="#000000" />
+
+    <link rel="shortcut icon" href="./favicon.png" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/instantsearch.css@7/themes/satellite-min.css"
+    />
+    <link rel="stylesheet" href="./src/index.css" />
+    <link rel="stylesheet" href="./src/app.css" />
+
+    <title>instantsearch.js-app</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <h1 class="header-title">
+        <a href="/">instantsearch.js-app</a>
+      </h1>
+      <p class="header-subtitle">
+        using
+        <a href="https://github.com/algolia/instantsearch.js">
+          InstantSearch.js
+        </a>
+      </p>
+    </header>
+
+    <div class="container">
+      <div>
+        <form>
+          Content Type:
+          <div class="content-type-form">
+            <input type="radio" value="all" name="placement" checked />
+            <label for="all" id="all-label"></label>
+            <input type="radio" value="offers" name="placement" />
+            <label for="offers" id="offer-label"></label>
+            <input type="radio" value="content" name="placement" />
+            <label for="content" id="content-label"></label>
+          </div>
+        </form>
+      </div>
+      <div id="searchbox"></div>
+
+      <div class="search-panel">
+        <div class="search-panel__filters" id="filter-offers">
+          <div id="category-list"></div>
+        </div>
+
+        <!-- Section for results for all content-types -->
+        <div class="search-panel__results">
+          <div id="results-all">
+            <div id="offers-panel">
+              <h1>Offers</h1>
+              <div id="hits-offers-all"></div>
+            </div>
+
+            <!-- Section for filters -->
+            <div id="content-panel">
+              <h1>Content</h1>
+              <div id="hits-content-all"></div>
+            </div>
+          </div>
+
+          <!-- Section for the results for when jsut the offers 
+            content-type is selected -->
+          <div id="results-offers">
+            <div id="hits-offers"></div>
+            <div id="pagination-offers"></div>
+          </div>
+
+          <!-- Section for the results for when just the content 
+            content-type is selected -->
+          <div id="results-content">
+            <div id="hits-content"></div>
+            <div id="pagination-content"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.10.5/dist/algoliasearch-lite.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.51.1"></script>
+    <script src="./src/app.js"></script>
+  </body>
+</html>

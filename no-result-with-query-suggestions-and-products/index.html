@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="theme-color" content="#000000" />
+
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="shortcut icon" href="./favicon.png" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/instantsearch.css@7/themes/algolia-min.css"
+    />
+    <link rel="stylesheet" href="./src/index.css" />
+    <link rel="stylesheet" href="./src/app.css" />
+
+    <title>instantsearch.js-app</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <h1 class="header-title">
+        <a href="/">instantsearch.js</a>
+      </h1>
+      <p class="header-subtitle">
+        using
+        <a href="https://github.com/algolia/instantsearch.js">
+          Pre-Generation
+        </a>
+      </p>
+    </header>
+
+    <p style="background-color: lightgrey; padding: 5px;">
+      This InstantSearch page is pre-generated with results like you could do
+      with a server side implementation. Once InstantSearch is started, facets
+      and hits are replaced by fresh content that can include AI Re-Ranking and
+      Personalization changes.
+      <br />
+      <a href="#" onClick="window.search.start();return false;">
+        Start the search
+      </a>
+      &nbsp;|&nbsp;
+      <a href="/?autostart=true">
+        Reload with autostart
+      </a>
+    </p>
+
+    <div class="container">
+      <div class="search-panel">
+        <div class="search-panel__filters">
+          <div id="brand-list"></div>
+        </div>
+
+        <div class="search-panel__results">
+          <div id="searchbox"></div>
+          <div id="hits">
+            <div>
+              <div class="ais-Hits">
+                <ol class="ais-Hits-list">
+                  <li class="ais-Hits-item static">
+                    <article>
+                      <h1>
+                        Amazon - Fire TV Stick with Alexa Voice Remote - Black
+                      </h1>
+                      <p>
+                        Enjoy smart access to videos, games and apps with this
+                        Amazon Fire TV stick. Its Alexa voice remote lets you
+                        deliver hands-free commands when you want to watch
+                        television or engage with other applications. With a
+                        quad-core processor, 1GB internal memory and 8GB of
+                        storage, this portable Amazon Fire TV stick works fast
+                        for buffer-free streaming.
+                      </p>
+                    </article>
+                  </li>
+                  <li class="ais-Hits-item static">
+                    <article>
+                      <h1>Google - Chromecast - Black</h1>
+                      <p>
+                        Google Chromecast: Enjoy a world of entertainment with
+                        Google Chromecast. Just connect to your HDTV's HDMI
+                        interface and your home Wi-Fi network to get started.
+                        You can stream your favorite apps from your compatible
+                        phone, tablet or laptop, plus use your phone as a remote
+                        to search, play and pause content.
+                      </p>
+                    </article>
+                  </li>
+                  <li class="ais-Hits-item static">
+                    <article>
+                      <h1>
+                        Dell - Inspiron 15.6" Touch-Screen Laptop - Intel Core
+                        i5 - 6GB Memory - 1TB Hard Drive - Black
+                      </h1>
+                      <p>
+                        Dell Inspiron Laptop: Get speed and performance from
+                        this 15.6-inch Dell Inspiron laptop. Supported by an
+                        Intel Core i5-5200U processor and 6GB of DDR3L RAM, this
+                        slim touch screen laptop lets you run multiple
+                        applications without lag. The 1TB hard drive in this
+                        Dell Inspiron laptop lets you store multiple music,
+                        video and document files.
+                      </p>
+                    </article>
+                  </li>
+                  <li class="ais-Hits-item static">
+                    <article>
+                      <h1>Amazon - Echo Dot</h1>
+                      <p>
+                        Deliver your favorite playlist anywhere in your home
+                        with the Amazon Echo Dot voice-controlled device.
+                        Control most electric devices through voice activation,
+                        or schedule a ride with Uber and order a pizza. The
+                        Amazon Echo Dot voice-controlled device turns any home
+                        into a smart home with the Alexa app on a smartphone or
+                        tablet.
+                      </p>
+                    </article>
+                  </li>
+                  <li class="ais-Hits-item static">
+                    <article>
+                      <h1>
+                        Apple - MacBook Air® (Latest Model) - 13.3" Display -
+                        Intel Core i5 - 8GB Memory - 128GB Flash Storage -
+                        Silver
+                      </h1>
+                      <p>
+                        MacBook Air features up to 8GB of memory, a
+                        fifth-generation Intel Core processor, Thunderbolt 2,
+                        great built-in apps, and all-day battery life.1 Its
+                        thin, light, and durable enough to take everywhere you
+                        go-and powerful enough to do everything once you get
+                        there, better.
+                      </p>
+                    </article>
+                  </li>
+                  <li class="ais-Hits-item static">
+                    <article>
+                      <h1>
+                        Sharp - 50" Class (49.5" Diag.) - LED - 1080p - Smart -
+                        HDTV Roku TV - Black
+                      </h1>
+                      <p>
+                        Only at Best Buy Sharp LC-50LB481U LED Roku TV: Get a TV
+                        that enjoys full Internet connectivity with this Sharp
+                        49.5-inch smart TV. Full HD resolutions give you plenty
+                        of detail whether you're streaming content from the
+                        Internet using the integrated Roku player or watching
+                        via cable. Plenty of contrast and high-quality sound
+                        mean this Sharp 49.5-in smart TV delivers outstanding
+                        video.
+                      </p>
+                    </article>
+                  </li>
+                  <li class="ais-Hits-item static">
+                    <article>
+                      <h1>Google - Google Home - White/Slate fabric</h1>
+                      <p>
+                        Simplify your everyday life with the Google Home, a
+                        voice-activated speaker powered by the Google Assistant.
+                        Use voice commands to enjoy music, get answers from
+                        Google and manage everyday tasks. Google Home is
+                        compatible with Android and iOS operating systems, and
+                        can control compatible smart devices such as Chromecast
+                        or Nest.
+                      </p>
+                    </article>
+                  </li>
+                  <li class="ais-Hits-item static">
+                    <article>
+                      <h1>Apple - EarPods™ with Remote and Mic - White</h1>
+                      <p>
+                        Control media playback, adjust the volume and answer and
+                        end calls on your Apple® iPod®, iPhone® or iPad® with
+                        these Apple EarPods™ MD827LL/A, which feature an in-line
+                        remote and mic for ease of use.
+                      </p>
+                    </article>
+                  </li>
+                  <li class="ais-Hits-item static">
+                    <article>
+                      <h1>
+                        Philips - hue A19 Smart LED Light Bulb - White Only
+                      </h1>
+                      <p>
+                        Philips hue A19 Smart LED Light Bulb: Get lighting
+                        that's as smart as you are. You can easily dim this
+                        light bulb and set timers and alarms using your
+                        smartphone or tablet. Plus, LED technology offers
+                        lasting illumination while using minimal energy.
+                      </p>
+                    </article>
+                  </li>
+                  <li class="ais-Hits-item static">
+                    <article>
+                      <h1>
+                        Nintendo - amiibo Figure (The Legend of Zelda: Breath of
+                        the Wild Series Zelda)
+                      </h1>
+                      <p>
+                        Zelda appears here carrying a Sheikah Slate, an
+                        important item in the Legend Zelda™: Breath of the Wild
+                        game. While her fate remains shrouded in mystery, the
+                        princess is at the core of Link's adventure in Hyrule.
+                      </p>
+                    </article>
+                  </li>
+                  <li class="ais-Hits-item static">
+                    <article>
+                      <h1>
+                        Nintendo - amiibo Figure (The Legend of Zelda: Breath of
+                        the Wild Series Link (Archer))
+                      </h1>
+                      <p>
+                        Link™ is the main character in The Legend of Zelda™
+                        games. A young boy living in Hyrule, Link is often given
+                        the task of rescuing Princess Zelda™ and Hyrule from the
+                        Gerudo thief Ganondorf. Humble to the end, Link is known
+                        not merely as a hero but as a symbol of courage,
+                        strength and wisdom as well.
+                      </p>
+                    </article>
+                  </li>
+                  <li class="ais-Hits-item static">
+                    <article>
+                      <h1>Roku - Express Streaming Media Player - Black</h1>
+                      <p>
+                        Watch your favorite programs with this Roku Express
+                        streaming player. The wireless capability lets you
+                        connect to your home network to stream movies and
+                        television shows without the need for expensive cable
+                        subscriptions, while the included remote lets you
+                        control the device from anywhere within range. This Roku
+                        Express streaming player turns every TV into a smart TV.
+                      </p>
+                    </article>
+                  </li>
+                  <li class="ais-Hits-item static">
+                    <article>
+                      <h1>
+                        Nintendo - amiibo Figure (The Legend of Zelda: Breath of
+                        the Wild Series Link (Rider))
+                      </h1>
+                      <p>
+                        Link™ is the main character in The Legend of Zelda™
+                        games. A young boy living in Hyrule, Link is often given
+                        the task of rescuing Princess Zelda™ and Hyrule from the
+                        Gerudo thief Ganondorf. Humble to the end, Link is known
+                        not merely as a hero but as a symbol of courage,
+                        strength and wisdom as well.
+                      </p>
+                    </article>
+                  </li>
+                  <li class="ais-Hits-item static">
+                    <article>
+                      <h1>
+                        Rocketfish™ - Tilting TV Wall Mount for Most 32"-70" TVs
+                        - Black
+                      </h1>
+                      <p>
+                        Mount your flat-panel TV to the wall easily with this
+                        tilting mount that features a locking mechanism for
+                        secure installation and a fingertip tilt that allows for
+                        smooth movement and optimal viewing.
+                      </p>
+                    </article>
+                  </li>
+                  <li class="ais-Hits-item static">
+                    <article>
+                      <h1>
+                        Nintendo - amiibo Figure (The Legend of Zelda: Breath of
+                        the Wild Series Guardian)
+                      </h1>
+                      <p>
+                        Forget everything you know about The Legend of Zelda
+                        games. Step into a world of discovery, exploration and
+                        adventure in The Legend of Zelda: Breath of the Wild, a
+                        boundary-breaking new game in the acclaimed series.
+                      </p>
+                    </article>
+                  </li>
+                  <li class="ais-Hits-item static">
+                    <article>
+                      <h1>
+                        LG - Ultra Slim 8x Max. DVD Write Speed External USB
+                        DVD±RW/CD-RW Drive - Black
+                      </h1>
+                      <p>
+                        Create archives of your favorite media with ease using
+                        this LG Ultra Slim SP80NB60 external DVD±RW/CD-RW Drive,
+                        which offers up to 8x DVD±R write speeds. Jamless play
+                        skips damaged parts of the disc to ensure smooth,
+                        uninterrupted playback.
+                      </p>
+                    </article>
+                  </li>
+                  <li class="ais-Hits-item static">
+                    <article>
+                      <h1>
+                        Sony - BDP-S3700 - Streaming Wi-Fi Built-In Blu-ray
+                        Player - Black
+                      </h1>
+                      <p>
+                        Enjoy fast, high-definition media streaming with this
+                        Sony Blu-ray disk player optimized with built-in Wi-Fi
+                        for smooth video performance. Use your mobile device to
+                        remotely control the player, and view the convenient
+                        side-bar app for program information. Brilliant color
+                        and high-quality details add to watching enjoyment with
+                        this Sony Blu-ray disk player.
+                      </p>
+                    </article>
+                  </li>
+                  <li class="ais-Hits-item static">
+                    <article>
+                      <h1>
+                        Insignia™ - 55" Class - (54.6" Diag.) - LED - 1080p -
+                        HDTV - Black
+                      </h1>
+                      <p>
+                        Experience cinema-like viewing from the comfort of your
+                        living room with this 55-inch Insignia LED television.
+                        It displays Blu-ray and high-definition movies in full
+                        1080p resolution with stunning HD detail. Use the three
+                        HDMI inputs to create a home theater experience with
+                        this Insignia LED TV and your other audio and video
+                        devices.
+                      </p>
+                    </article>
+                  </li>
+                  <li class="ais-Hits-item static">
+                    <article>
+                      <h1>
+                        HP - 15.6" Laptop - AMD A6-Series - 4GB Memory - 500GB
+                        Hard Drive - Black
+                      </h1>
+                      <p>
+                        HP Laptop: Experience high-powered computing on the go
+                        with this HP notebook. Store your favorite videos or
+                        music on the 500GB hard drive, and watch HD movies
+                        displayed via its AMD Radeon R4 graphics card. The AMD
+                        quad-core A6 processor and 4GB of RAM in this HP
+                        notebook let it handle your heaviest multitasking
+                        workloads.
+                      </p>
+                    </article>
+                  </li>
+                  <li class="ais-Hits-item static">
+                    <article>
+                      <h1>
+                        Nintendo - amiibo Figure (The Legend of Zelda: Breath of
+                        the Wild Series Bokoblin)
+                      </h1>
+                      <p>
+                        These creatures have appeared in many games in the
+                        Legend of Zelda series, but never have they been more
+                        dangerous and resourceful. This amiibo features a
+                        standard red Bokoblin carrying a rudimentary Boko Club,
+                        but many nastier varieties lurk in the wilds of Hyrule.
+                      </p>
+                    </article>
+                  </li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="pagination"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.10.5/dist/algoliasearch-lite.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.35.0"></script>
+    <script src="./src/app.js"></script>
+  </body>
+</html>

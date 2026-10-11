@@ -1,0 +1,17 @@
+{
+  "name": "goodfood-secured-api-keys-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "algoliasearch": "4.8.3",
+    "express": "4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4"
+  },
+  "keywords": []
+}

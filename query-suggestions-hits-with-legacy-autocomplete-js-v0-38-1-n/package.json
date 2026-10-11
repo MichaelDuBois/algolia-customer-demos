@@ -1,0 +1,17 @@
+{
+  "name": "autocomplete-query-suggestions",
+  "version": "0.0.1",
+  "description": "Display query suggestions and products using Algolia Autocomplete.js ⚡️",
+  "main": "index.html",
+  "license": "MIT",
+  "dependencies": {
+    "algoliasearch": "3.35.1",
+    "autocomplete.js": "0.38.1",
+    "parcel-bundler": "^1.12.5"
+  },
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "keywords": ["algolia", "search", "autocomplete", "autocomplete.js", "query suggestions"]
+}

@@ -1,0 +1,67 @@
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+/* InstantSearch overrides */
+.ais-SearchBox {
+  margin-bottom: 0.5em;
+}
+.ais-Hits-list {
+  margin: 0;
+  padding: 0;
+}
+.ais-Hits-item {
+  margin-left: 0;
+  margin-bottom: 0.5em;
+  width: 100%;
+  box-shadow: none;
+  border: 1px solid #c4c8d8;
+  border-radius: 5px;
+  background: white;
+  display: flex;
+  transition: 200ms;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+.ais-Hits-item:hover {
+  border-color: #3a4570;
+}
+.ais-Highlight,
+.ais-Highlight-highlighted,
+.ais-Highlight-nonHighlighted {
+  font-size: inherit;
+}
+
+/* InstantSearch custom */
+.ais-Hits-item__img {
+  margin-right: 1em;
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+}
+.ais-Hits-item__ribbon {
+  position: absolute;
+  background: #e20f14;
+  box-shadow: 0 0 0 999px #e20f14;
+  color: white;
+  clip-path: inset(0 -100%);
+  inset: 0 0 auto auto;
+  transform-origin: 0 0;
+  transform: translate(29.3%) rotate(45deg);
+  font-size: 14px;
+}
+.ais-Hits-item__name {
+  margin-bottom: 0.5em;
+  font-weight: bolder;
+}
+.ais-Hits-item__description {
+  color: #888;
+  font-size: 14px;
+  margin-bottom: 0.5em;
+}
+.ais-Hits-item__price {
+  font-size: 15px;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div id="app">
+      <div id="search">
+        <input
+          value=""
+          placeholder="Search for somthing to see ad's"
+          type="search"
+          id="searchBar"
+        />
+        <ul id="results"></ul>
+      </div>
+
+      <div id="controls">
+        <label>
+          APP ID
+          <input
+            value="VYLEWMPKEZ"
+            id="appID"
+            type="text"
+            placeholder="App ID"
+          />
+        </label>
+        <label>
+          API Key
+          <input
+            value="5ded269b61a7d883137111f570475331"
+            id="apiKey"
+            type="text"
+            placeholder="API Key"
+          />
+        </label>
+        <label>
+          Index
+          <input
+            value="demo_ecom_ads"
+            id="indexName"
+            type="text"
+            placeholder="Index Name"
+          />
+        </label>
+        <label>
+          Filter to use for adverts
+          <input
+            value="isAdvert:true"
+            id="filter"
+            type="text"
+            placeholder="filter"
+          />
+        </label>
+        <label>
+          Ad Positions
+          <input
+            value="1,4,10,11,16"
+            id="adPositions"
+            type="text"
+            placeholder="postions"
+          />
+        </label>
+      </div>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>

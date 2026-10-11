@@ -1,0 +1,63 @@
+body {
+  font-family: sans-serif;
+  padding: 1em;
+}
+
+.ais-ClearRefinements {
+  margin: 1em 0;
+}
+
+.ais-SearchBox {
+  margin: 1em 0;
+}
+
+.ais-Pagination {
+  margin-top: 1em;
+}
+
+.top-panel {
+  margin-bottom: 1em;
+}
+
+.bottom-panel {
+  display: flex;
+}
+
+.left-panel {
+  width: 250px;
+  flex: none;
+  margin-right: 1em;
+}
+
+.right-panel {
+  flex-grow: 1;
+}
+
+.ais-InstantSearch {
+  max-width: 960px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.ais-Hits-item {
+  margin-bottom: 1em;
+  width: calc(50% - 1rem);
+}
+
+.ais-Hits-item img {
+  margin-right: 1em;
+}
+
+.hit-name {
+  margin-bottom: 0.5em;
+}
+
+.hit-description {
+  color: #888;
+  font-size: 14px;
+  margin-bottom: 0.5em;
+}
+
+.view-all {
+  font-size: 1rem;
+}

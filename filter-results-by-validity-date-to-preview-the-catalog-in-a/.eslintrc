@@ -1,0 +1,4 @@
+{
+  "extends": "algolia",
+  "ignorePatterns": [".cache", "dist", "node_modules"]
+}

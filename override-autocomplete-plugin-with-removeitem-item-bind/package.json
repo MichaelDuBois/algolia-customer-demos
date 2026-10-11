@@ -1,0 +1,18 @@
+{
+  "name": "autocomplete-templating",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "qinglin.ye@algolia.com",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "7.2.0",
+    "typescript": "4.4.4"
+  },
+  "keywords": []
+}

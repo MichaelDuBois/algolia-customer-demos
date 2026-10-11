@@ -1,0 +1,99 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol';
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  min-height: 50px;
+  padding: 0.5rem 1rem;
+  background-image: linear-gradient(284deg, #fedd4e, #fcb43a);
+  color: #fff;
+  margin-bottom: 1rem;
+}
+.header a {
+  color: #fff;
+  text-decoration: none;
+}
+.header__title {
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+.header__title::after {
+  content: ' ▸ ';
+  padding: 0 0.5rem;
+}
+.header__subtitle {
+  font-size: 1.2rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.search-panel {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+}
+.search-panel__filters {
+  flex: 1;
+}
+.search-panel__results {
+  flex: 3;
+}
+
+#datepicker {
+  margin-bottom: 16px;
+}
+
+#searchbox {
+  margin-bottom: 2rem;
+}
+
+.product-card {
+  display: flex;
+}
+.product-card__image {
+  width: 100px;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+.product-card__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.product-card__content h2 {
+  margin: 0 0 8px;
+}
+.product-card__content p {
+  margin: 0 0 4px;
+}
+
+.badge {
+  padding: 2px 4px;
+  color: white;
+  border-radius: 4px;
+}
+.badge--blue {
+  background-color: #487fe7;
+}
+.badge--green {
+  background-color: #5bb381;
+}
+
+#pagination {
+  margin: 2rem auto;
+  text-align: center;
+}
+
+/* InstantSearch overrides */
+.ais-Highlight-highlighted {
+  color: inherit;
+  font-size: inherit;
+}

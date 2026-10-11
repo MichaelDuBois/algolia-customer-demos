@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="theme-color" content="#000000" />
+
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="shortcut icon" href="./favicon.png" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/instantsearch.css@7.4.5/themes/reset-min.css"
+      integrity="sha256-QlHlZdbSVxaYkUHxhMFhAj/L3pJiW1LuomSCONXBWms="
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./src/index.css" />
+    <link rel="stylesheet" href="./src/app.css" />
+
+    <title>Side-by-side</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Side by side</h1>
+      <div id="searchbox"></div>
+
+      <div class="flex-container">
+        <div class="flex-item">
+          <h3>
+            Version 1
+            <input
+              type="text"
+              id="index-a"
+              list="listForA"
+              name="index-a"
+              value="prod_ECOM"
+            />
+
+            <datalist id="listForA">
+              <option value="prod_ECOM"> </option>
+              <option value="prod_ECOM_custom_ranking_reviews"> </option>
+            </datalist>
+          </h3>
+          <div class="reranking">
+            <label class="switch">
+              <input type="checkbox" id="reranking-a" />
+              <span class="slider round"></span>
+            </label>
+            <span class="toggle-name">Reranking</span>
+          </div>
+          <div id="hits-instant-search-a"></div>
+          <div id="pagination-a"></div>
+        </div>
+
+        <div class="flex-item">
+          <h3>
+            Version 2
+            <input
+              type="text"
+              id="index-b"
+              list="listForB"
+              name="index-b"
+              value="prod_ECOM_custom_ranking_reviews"
+            />
+            <datalist id="listForB">
+              <option value="prod_ECOM"> </option>
+              <option value="prod_ECOM_custom_ranking_reviews"> </option>
+            </datalist>
+          </h3>
+          <div class="reranking">
+            <label class="switch">
+              <input type="checkbox" id="reranking-b" />
+              <span class="slider round"></span>
+            </label>
+            <span class="toggle-name">Reranking</span>
+          </div>
+          <div id="hits-instant-search-b"></div>
+          <div id="pagination-b"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./src/app.js"></script>
+  </body>
+</html>

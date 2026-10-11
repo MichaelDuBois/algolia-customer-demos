@@ -1,0 +1,54 @@
+/* General styles */
+
+.left-panel {
+  float: left;
+  width: 250px;
+}
+
+.right-panel {
+  margin-left: 260px;
+}
+
+.title {
+  color: #556ef5;
+  margin: 0;
+  font-size: 28px;
+}
+
+.subtitle {
+  font-size: 18px;
+}
+
+/* InstantSearch */
+
+.ais-SearchBox {
+  margin: 1em 0;
+}
+
+.ais-Pagination {
+  margin-top: 1em;
+}
+
+.ais-InstantSearch {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.ais-Hits-item {
+  margin-bottom: 1em;
+  width: 100%;
+}
+.ais-Hits-item__img {
+  margin-right: 1em;
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
+.ais-Hits-item__name {
+  margin-bottom: 0.5em;
+}
+.ais-Hits-item__description {
+  color: #888;
+  font-size: 14px;
+  margin-bottom: 0.5em;
+}

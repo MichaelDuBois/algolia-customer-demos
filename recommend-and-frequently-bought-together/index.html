@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="theme-color" content="#000000" />
+
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="shortcut icon" href="./favicon.png" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/instantsearch.css@7/themes/algolia-min.css"
+    />
+    <link rel="stylesheet" href="./src/index.css" />
+    <link rel="stylesheet" href="./src/app.css" />
+
+    <title>ais-ecommerce-demo-app</title>
+  </head>
+
+  <body>
+    <div id="frequentlyBoughtTogether" class="recommend-component"></div>
+    <div id="relatedProducts"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@algolia/recommend-js"></script>
+    <script>
+      const { frequentlyBoughtTogether, relatedProducts } = window[
+        '@algolia/recommend-js'
+      ];
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/algoliasearch@4/dist/algoliasearch-lite.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4"></script>
+    <script src="./src/app.js"></script>
+  </body>
+</html>

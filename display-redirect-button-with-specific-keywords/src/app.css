@@ -1,0 +1,83 @@
+/* General styles */
+
+.left-panel {
+  float: left;
+  width: 250px;
+}
+
+.right-panel {
+  margin-left: 260px;
+}
+
+.title {
+  color: #556ef5;
+  margin: 0;
+}
+
+.header {
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+#btn-redirect {
+  padding: 0.3rem 0.5rem;
+  font-size: 0.8rem;
+  color: black;
+  background-color: #f8ca4f;
+  border-radius: 5px;
+  transition: background-color 0.2s ease-out;
+  outline: none;
+  text-decoration: none;
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+
+/* InstantSearch */
+
+.ais-SearchBox {
+  margin: 1em 0;
+}
+
+.ais-Pagination {
+  margin-top: 1em;
+}
+
+.ais-InstantSearch {
+  max-width: 960px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.ais-ClearRefinements {
+  margin-bottom: 1em;
+}
+.ais-ClearRefinements-button {
+  background: #556ef5;
+}
+.ais-ClearRefinements-button--disabled:hover {
+  background: #556ef5;
+  cursor: not-allowed;
+}
+.ais-ClearRefinements-button:hover {
+  background: #223bc2;
+}
+
+.ais-Hits-item {
+  margin-bottom: 1em;
+  width: 100%;
+}
+.ais-Hits-item__img {
+  width: 160px;
+  height: 160px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+.ais-Hits-item__name {
+  margin-bottom: 0.5em;
+}
+.ais-Hits-item__description {
+  color: #888;
+  font-size: 14px;
+  margin-bottom: 0.5em;
+}
