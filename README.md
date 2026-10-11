@@ -1,6 +1,6 @@
 # Customer Demos
 
-A collection of Algolia demo sandboxes (InstantSearch, Autocomplete, Recommend, Insights and more), exported from CodeSandbox. Each folder is a self-contained demo with its own code; see `DESCRIPTION.md` inside each folder for the full description and the original CodeSandbox link.
+A collection of Algolia demo sandboxes (InstantSearch, Autocomplete, Recommend, Insights and more), exported from CodeSandbox. Each folder is a self-contained demo with its own code.
 
 
 ## Autocomplete & Federated Search
