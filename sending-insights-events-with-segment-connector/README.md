@@ -19,3 +19,7 @@ yarn start
 ```
 
 Open http://localhost:3000 to see your app.
+
+---
+
+> **Note:** The Segment write key that was hard-coded in this demo (`index.html`) has been removed and replaced with the placeholder `YOUR_SEGMENT_WRITE_KEY`. Replace it with the write key of your own Segment source before running.

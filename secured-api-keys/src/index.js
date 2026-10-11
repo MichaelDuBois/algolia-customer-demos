@@ -9,7 +9,7 @@ const app = express();
 const readFileAsync = util.promisify(fs.readFile);
 
 const APP_ID = "U34K6693NA";
-const API_KEY = "43d12776e325f6347604637011a645cc";
+const API_KEY = "YOUR_SEARCH_ONLY_PARENT_API_KEY";
 
 const client = algoliasearch(APP_ID, API_KEY);
 

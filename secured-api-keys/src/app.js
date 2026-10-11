@@ -13,7 +13,7 @@ delete window.INDEX;
 const searchClient = algoliasearch("U34K6693NA", SERVER_DATA.ALGOLIA_API_KEY);
 const suggestionClient = algoliasearch(
   "U34K6693NA",
-  "43d12776e325f6347604637011a645cc"
+  "YOUR_SEARCH_ONLY_PARENT_API_KEY"
 );
 
 let search = instantsearch({
